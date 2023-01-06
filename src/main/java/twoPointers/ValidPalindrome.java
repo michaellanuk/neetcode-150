@@ -10,22 +10,29 @@ public class ValidPalindrome {
     Given a string s, return true if it is a palindrome, or false otherwise.
      */
     public boolean solve(String s) {
-        if (s.length() <= 1) {
-            return true;
-        }
+        int i = 0;
+        int j = s.length() - 1;
 
-        StringBuilder onlyAlphaNum = new StringBuilder();
+        while (i < j) {
+            Character start = s.charAt(i);
+            Character end = s.charAt(j);
 
-        for (int i = 0; i < s.length(); i++) {
-            if (Character.isLetterOrDigit(s.charAt(i))) {
-                onlyAlphaNum.append(Character.toLowerCase(s.charAt(i)));
+            if (!Character.isLetterOrDigit(start)) {
+                i++;
+                continue;
             }
-        }
 
-        for (int i = 0; i < onlyAlphaNum.length() / 2; i++) {
-            if (onlyAlphaNum.charAt(i) != onlyAlphaNum.charAt(onlyAlphaNum.length() - i - 1)) {
+            if (!Character.isLetterOrDigit(end)) {
+                j--;
+                continue;
+            }
+
+            if (Character.toLowerCase(start) != Character.toLowerCase(end)) {
                 return false;
             }
+
+            i++;
+            j--;
         }
 
         return true;
