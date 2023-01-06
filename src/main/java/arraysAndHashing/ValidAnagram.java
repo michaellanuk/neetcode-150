@@ -1,6 +1,7 @@
 package arraysAndHashing;
 
 import java.util.HashMap;
+import java.util.Map;
 import java.util.stream.IntStream;
 
 public class ValidAnagram {
@@ -17,7 +18,7 @@ public class ValidAnagram {
             return false;
         }
 
-        HashMap<Character, Integer> charMap = new HashMap<>();
+        Map<Character, Integer> charMap = new HashMap<>();
 
         IntStream.range(0, s.length()).forEach(i -> {
             charMap.merge(s.charAt(i), 1, Integer::sum);
