@@ -40,7 +40,7 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.TwoSumTest">
+  <component name="RunManager" selected="JUnit.ContainsDuplicateTest.testEmpty">
     <configuration name="ContainsDuplicateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="neetcode-150" />
       <extension name="coverage">
@@ -120,10 +120,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ContainsDuplicateTest.testEmpty" />
         <item itemvalue="JUnit.TwoSumTest" />
         <item itemvalue="JUnit.TwoSumTest.testSolve" />
         <item itemvalue="JUnit.ValidAnagramTest" />
-        <item itemvalue="JUnit.ContainsDuplicateTest.testEmpty" />
         <item itemvalue="JUnit.ContainsDuplicateTest" />
       </list>
     </recent_temporary>

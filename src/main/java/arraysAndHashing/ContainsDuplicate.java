@@ -11,7 +11,7 @@ public class ContainsDuplicate {
     least twice in the array, and return false if every element is distinct.
      */
     public boolean solve(int[] nums) {
-        if (nums.length == 0 || nums.length == 1) {
+        if (nums.length <= 1) {
             return false;
         }
 
