@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1392faf3-4122-4947-89ff-6cd831f5124b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/arraysAndHashing/TwoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/arraysAndHashing/TwoSumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/twoPointers/ValidPalindrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,22 +39,7 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ContainsDuplicateTest.testEmpty">
-    <configuration name="ContainsDuplicateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="neetcode-150" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arraysAndHashing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="arraysAndHashing" />
-      <option name="MAIN_CLASS_NAME" value="arraysAndHashing.ContainsDuplicateTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ValidPalindromeTest">
     <configuration name="ContainsDuplicateTest.testEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="neetcode-150" />
       <extension name="coverage">
@@ -118,13 +102,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ValidPalindromeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="neetcode-150" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="twoPointers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="twoPointers" />
+      <option name="MAIN_CLASS_NAME" value="twoPointers.ValidPalindromeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ValidPalindromeTest" />
         <item itemvalue="JUnit.ContainsDuplicateTest.testEmpty" />
         <item itemvalue="JUnit.TwoSumTest" />
         <item itemvalue="JUnit.TwoSumTest.testSolve" />
         <item itemvalue="JUnit.ValidAnagramTest" />
-        <item itemvalue="JUnit.ContainsDuplicateTest" />
       </list>
     </recent_temporary>
   </component>
