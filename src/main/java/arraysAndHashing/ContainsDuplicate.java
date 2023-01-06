@@ -1,6 +1,7 @@
 package arraysAndHashing;
 
 import java.util.HashSet;
+import java.util.Set;
 
 public class ContainsDuplicate {
     public ContainsDuplicate() {};
@@ -14,7 +15,7 @@ public class ContainsDuplicate {
             return false;
         }
 
-        HashSet<Integer> numsSet = new HashSet<>();
+        Set<Integer> numsSet = new HashSet<>();
 
         for (int n : nums) {
             if (numsSet.contains(n)) {
