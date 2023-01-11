@@ -3,14 +3,14 @@
 Algorithms solutions and tests grouped by category:
 * Arrays & Hashing
 * Two Pointers
-* Stack
+* Stacks
 * Binary Search
 * Sliding Window
-* Linked List
+* Linked Lists
 * Trees
 * Tries
 * Backtracking
-* Heap / Priority Queue
+* Heaps / Priority Queues
 * Graphs
 * Dynamic Programming
 * Greedy Algorithms
