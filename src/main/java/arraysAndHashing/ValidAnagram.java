@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.stream.IntStream;
 
 public class ValidAnagram {
-    public ValidAnagram() {};
+    public ValidAnagram() {}
 
     /*
     Given two strings s and t, return true if t is an anagram of s, and false otherwise.

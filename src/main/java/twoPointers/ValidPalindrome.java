@@ -1,7 +1,7 @@
 package twoPointers;
 
 public class ValidPalindrome {
-    public ValidPalindrome() {};
+    public ValidPalindrome() {}
 
     /*
     A phrase is a palindrome if, after converting all uppercase letters into lowercase letters and
@@ -14,8 +14,8 @@ public class ValidPalindrome {
         int j = s.length() - 1;
 
         while (i < j) {
-            Character start = s.charAt(i);
-            Character end = s.charAt(j);
+            char start = s.charAt(i);
+            char end = s.charAt(j);
 
             if (!Character.isLetterOrDigit(start)) {
                 i++;
