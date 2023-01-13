@@ -1,7 +1,6 @@
 package twoPointers;
 
 public class ValidPalindrome {
-    public ValidPalindrome() {}
 
     /*
     A phrase is a palindrome if, after converting all uppercase letters into lowercase letters and

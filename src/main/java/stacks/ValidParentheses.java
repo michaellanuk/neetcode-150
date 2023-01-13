@@ -4,7 +4,6 @@ import java.util.Map;
 import java.util.Stack;
 
 public class ValidParentheses {
-    public ValidParentheses() {}
 
     /*
     Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.

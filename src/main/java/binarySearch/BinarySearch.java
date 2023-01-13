@@ -1,8 +1,6 @@
 package binarySearch;
 
 public class BinarySearch {
-    public BinarySearch() {
-    }
 
     /*
     Given an array of integers nums which is sorted in ascending order,

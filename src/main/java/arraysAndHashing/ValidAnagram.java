@@ -5,14 +5,12 @@ import java.util.Map;
 import java.util.stream.IntStream;
 
 public class ValidAnagram {
-    public ValidAnagram() {}
 
     /*
     Given two strings s and t, return true if t is an anagram of s, and false otherwise.
     An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase,
     typically using all the original letters exactly once.
      */
-
     public boolean solve(String s, String t) {
         if (s.length() != t.length()) {
             return false;
