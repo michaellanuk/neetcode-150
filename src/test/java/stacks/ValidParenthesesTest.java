@@ -15,7 +15,6 @@ public class ValidParenthesesTest {
         assertTrue(validParentheses.solve(s));
     }
 
-
     @ParameterizedTest
     @ValueSource(strings = {"(]", ")(", "[[[]]]]"})
     public void testFalse(String s) {
