@@ -3,8 +3,14 @@ package arraysAndHashing;
 import java.util.*;
 
 public class GroupedAnagrams {
-    public GroupedAnagrams() {}
 
+    /*
+    Given an array of strings strs, group the anagrams together.
+    You can return the answer in any order.
+
+    An Anagram is a word or phrase formed by rearranging the letters of
+    a different word or phrase, typically using all the original letters exactly once.
+     */
     public List<List<String>> solve(String[] strs) {
         Map<String, List<String>> anagramsMap = new HashMap<>();
 
@@ -20,9 +26,6 @@ public class GroupedAnagrams {
             anagramsMap.get(key).add(s);
         }
 
-        List<List<String>> groupedAnagrams = new ArrayList<>();
-        groupedAnagrams.addAll(anagramsMap.values());
-
-        return groupedAnagrams;
+        return new ArrayList<>(anagramsMap.values());
     }
 }
