@@ -7,6 +7,7 @@ Algorithms solutions and tests grouped by category:
   * TwoSum **(e)**
   * ValidAnagram **(e)**
 * Two Pointers
+  * TwoSumInputSorted **(m)**
   * ValidPalindrome **(e)**
 * Stacks
   * MinStack **(m)**
