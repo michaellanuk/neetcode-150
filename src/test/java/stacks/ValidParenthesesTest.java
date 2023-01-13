@@ -1,6 +1,7 @@
 package stacks;
 
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.ValueSource;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
@@ -8,15 +9,16 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class ValidParenthesesTest {
     ValidParentheses validParentheses = new ValidParentheses();
 
-    @Test
-    public void testTrue() {
-        assertTrue(validParentheses.solve("(((()[]{})))"));
-        assertTrue(validParentheses.solve("([{}])"));
+    @ParameterizedTest
+    @ValueSource(strings = {"(((()[]{})))", "([{}])", "()"})
+    public void testTrue(String s) {
+        assertTrue(validParentheses.solve(s));
     }
 
-    @Test
-    public void testFalse() {
-        assertFalse(validParentheses.solve("(]"));
-        assertFalse(validParentheses.solve(")("));
+
+    @ParameterizedTest
+    @ValueSource(strings = {"(]", ")(", "[[[]]]]"})
+    public void testFalse(String s) {
+        assertFalse(validParentheses.solve(s));
     }
 }
