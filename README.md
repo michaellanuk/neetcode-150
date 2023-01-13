@@ -2,9 +2,17 @@
 
 Algorithms solutions and tests grouped by category:
 * Arrays & Hashing
+  * ContainsDuplicate **(e)**
+  * GroupedAnagrams **(m)**
+  * TwoSum **(e)**
+  * ValidAnagram **(e)**
 * Two Pointers
+  * ValidPalindrome **(e)**
 * Stacks
+  * MinStack **(m)**
+  * ValidParentheses **(e)**
 * Binary Search
+  * BinarySearch **(e)**
 * Sliding Window
 * Linked Lists
 * Trees
@@ -17,5 +25,8 @@ Algorithms solutions and tests grouped by category:
 * Bit Manipulation
 * Maths
 
+e - easy
+m - medium
+h - hard
 ---
 https://neetcode.io/
